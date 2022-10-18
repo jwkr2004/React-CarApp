@@ -1,0 +1,44 @@
+.Header{
+  background-color: rgb(245, 180, 60);
+  border-bottom: solid 1px black;
+  text-align: center;
+  padding: 1%;
+}
+
+.Container{
+  padding: 3% 2%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Car {
+  min-width: 350px;
+  background-color: rgb(245, 180, 60);
+  text-align: center;
+  border: solid 2px black;
+  padding: 2% 2%;
+  margin: 1%;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.Car div {
+  margin:2%;
+}
+
+.image img {
+  border: solid 2px black;
+  width: 180px;
+  background-color: white;
+}
+
+.Footer {
+  background-color: rgb(245, 180, 60);
+  border-top: solid 1px black;
+  text-align: center;
+  padding: 2%;
+}
